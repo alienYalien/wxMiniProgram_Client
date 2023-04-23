@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/startup/startup",
+    "pages/index/index",
+    "pages/bc1/bc1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#303238",
+    "navigationBarTitleText": "TestTitle",
+    "navigationBarTextStyle": "white"
+  }
+}

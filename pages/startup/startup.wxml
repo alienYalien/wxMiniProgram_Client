@@ -1,0 +1,16 @@
+<view class="body" style="height:{{windowheight}}px">
+  <view class="bgimg">
+    <view class="topic">Go</view>
+     <view class="userinfo">
+      <view class="userinfo-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+      </view> 
+    </view>
+    
+    <view class='namefont'> welcome <open-data type="userNickName"></open-data></view>
+    <view class="introfont">testDes~</view>
+    <button class="bordernone" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"  >
+      授权登陆
+    </button>   
+  </view>
+</view>
